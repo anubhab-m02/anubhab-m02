@@ -1,3 +1,5 @@
+[![MasterHead](https://drive.google.com/file/d/18dJ6Np82_T8XRQP48iIB_hX6YTtsTJs1/view?usp=drive_link)](https://github.com/anubhab-m02)
+
 ### Hi there 👋
 
 <!--
@@ -14,4 +16,4 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-[![Anubhab's GitHub stats](https://github-readme-stats.vercel.app/api?username=anubhab-m02)](https://github.com/anuraghazra/github-readme-stats)
+[![Anubhab's GitHub stats](https://github-readme-stats.vercel.app/api?username=anubhab-m02&theme=transparent)](https://github.com/anuraghazra/github-readme-stats)

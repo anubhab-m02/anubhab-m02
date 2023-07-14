@@ -1,4 +1,3 @@
-[![MasterHead](https://drive.google.com/file/d/18dJ6Np82_T8XRQP48iIB_hX6YTtsTJs1/view?usp=drive_link)](https://github.com/anubhab-m02)
 
 ### Hi there 👋
 

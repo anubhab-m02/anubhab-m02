@@ -1,7 +1,7 @@
 (As of September 2024)
 <h1 align="center">Hi 👋, I'm Anubhab Mishra</h1>
 <p align="center">
-  <img src="https://github.com/anubhab-m02/anubhab-m02/blob/main/Linkedin-cover-1.png" alt="Anubhab Mishra LinkedIn Cover" width="100%">
+  <img src="https://github.com/anubhab-m02/anubhab-m02/blob/main/LinkedIn-cover-1.png" alt="Anubhab Mishra LinkedIn Cover" width="100%">
 </p>
 
 <h3 align="center">A dedicated AI/ML Engineer, UX Designer and Frontend Developer from India.</h3>

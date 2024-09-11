@@ -7,11 +7,11 @@
 <h3 align="center">A dedicated AI/ML Engineer, UX Designer and Frontend Developer from India.</h3>
 
 <div align="left">
-    <p>🔭 I'm currently working on <strong>Generative AI Projects</strong></p>
-    <p>🌱 I'm currently learning <strong>Generative AI</strong></p>
-    <p>📫 How to reach me: <strong><a href="mailto:anubhab.m248@gmail.com">anubhab.m248@gmail.com</a></strong></p>
-    <p>📄 Know about my experiences: <a href="https://drive.google.com/file/d/1kFeTnfFnksuqkw8tEdwplTThvqCfs-44/view?usp=sharing">View CV</a></p>
-    <p>⚡ Fun fact: <strong>I'm a real life Ted Mosby T_T</strong></p>
+    <p>- 🔭 I'm currently working on <strong>Generative AI Projects</strong></p>
+    <p>- 🌱 I'm currently learning <strong>Generative AI</strong></p>
+    <p>- 📫 How to reach me: <strong><a href="mailto:anubhab.m248@gmail.com">anubhab.m248@gmail.com</a></strong></p>
+    <p>- 📄 Know about my experiences: <a href="https://drive.google.com/file/d/1kFeTnfFnksuqkw8tEdwplTThvqCfs-44/view?usp=sharing">View Resume</a></p>
+    <p>- ⚡ Fun fact: <strong>I'm a real life Ted Mosby T_T</strong></p>
 </div>
 
 <h3 align="center">Connect with me:</h3>

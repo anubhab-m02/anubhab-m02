@@ -2,7 +2,7 @@
 <h1 align="center">Hi 👋, I'm Anubhab Mishra</h1>
 <h3 align="center">A dedicated AI/ML Engineer, UX Designer and Frontend Developer from India.</h3>
 
-<div align="center">
+<div align="left">
     <p>🔭 I'm currently working on <strong>Generative AI Projects</strong></p>
     <p>🌱 I'm currently learning <strong>Generative AI</strong></p>
     <p>📫 How to reach me: <strong><a href="mailto:anubhab.m248@gmail.com">anubhab.m248@gmail.com</a></strong></p>
@@ -60,13 +60,13 @@
     <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/adobe-xd.svg" alt="xd" width="40" height="40"/> </a>
 </p>
 
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=anubhab-m02&label=Profile%20views&color=0e75b6&style=flat" alt="anubhab-m02" /> </p>
+<p> <img src="https://komarev.com/ghpvc/?username=anubhab-m02&label=Profile%20views&color=0e75b6&style=flat" alt="anubhab-m02" /> </p>
 
-<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=anubhab-m02" alt="anubhab-m02" /></a> </p>
+<p> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=anubhab-m02" alt="anubhab-m02" /></a> </p>
 
-<p align="center"> <a href="https://twitter.com/improllythatguy" target="blank"><img src="https://img.shields.io/twitter/follow/improllythatguy?logo=twitter&style=for-the-badge" alt="improllythatguy" /></a> </p>
-<p align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=anubhab-m02&show_icons=true&locale=en&layout=compact" alt="anubhab-m02" /></p>
+<p> <a href="https://twitter.com/improllythatguy" target="blank"><img src="https://img.shields.io/twitter/follow/improllythatguy?logo=twitter&style=for-the-badge" alt="improllythatguy" /></a> </p>
+<p><img src="https://github-readme-stats.vercel.app/api/top-langs?username=anubhab-m02&show_icons=true&locale=en&layout=compact" alt="anubhab-m02" /></p>
 
-<p align="center">&nbsp;<img src="https://github-readme-stats.vercel.app/api?username=anubhab-m02&show_icons=true&locale=en" alt="anubhab-m02" /></p>
+<p>&nbsp;<img src="https://github-readme-stats.vercel.app/api?username=anubhab-m02&show_icons=true&locale=en" alt="anubhab-m02" /></p>
 
-<p align="center"><img src="https://github-readme-streak-stats.herokuapp.com/?user=anubhab-m02&" alt="anubhab-m02" /></p>
+<p><img src="https://github-readme-streak-stats.herokuapp.com/?user=anubhab-m02&" alt="anubhab-m02" /></p>

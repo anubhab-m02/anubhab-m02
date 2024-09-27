@@ -10,7 +10,7 @@
     <p>- 🔭 I'm currently working on <strong>Generative AI Projects</strong></p>
     <p>- 🌱 I'm currently learning <strong>Generative AI</strong></p>
     <p>- 📫 How to reach me: <strong><a href="mailto:anubhab.m248@gmail.com">anubhab.m248@gmail.com</a></strong></p>
-    <p>- 📄 Know about my experiences: <a href="https://drive.google.com/file/d/1kFeTnfFnksuqkw8tEdwplTThvqCfs-44/view?usp=sharing">View Resume</a></p>
+    <p>- 📄 Know about my experiences: <a href="https://drive.google.com/file/d/1hO7BOf8l1wfTfi-2NnqSvuGUwgVg7lFl/view?usp=drive_link">View Resume</a></p>
     <p>- ⚡ Fun fact: <strong>I'm a real life Ted Mosby T_T</strong></p>
 </div>
 

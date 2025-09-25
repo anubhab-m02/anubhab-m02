@@ -1,6 +1,6 @@
 import svgwrite
 import random
- 
+
 # --- CORE BLUEPRINT ---
 OUTPUT_FILENAME = "cognitive_engine.svg"
 CANVAS_SIZE = ("1000px", "800px")
@@ -52,9 +52,8 @@ def generate_engine():
     # Glow filter for a neon effect
     glow_filter = dwg.defs.add(dwg.filter(id="glow"))
     glow_filter.feGaussianBlur(stdDeviation="3", result="coloredBlur")
-    feMerge = glow_filter.feMerge()
-    feMerge.feMergeNode(in_="coloredBlur")
-    feMerge.feMergeNode(in_="SourceGraphic")
+    # Correctly pass the layer names to the feMerge method
+    glow_filter.feMerge(in_=["coloredBlur", "SourceGraphic"])
 
     # --- BACKGROUND GRID (The Substrate) ---
     grid_pattern = dwg.defs.add(dwg.pattern(id="grid", width="20", height="20", patternUnits="userSpaceOnUse"))
@@ -117,3 +116,4 @@ def generate_engine():
 # --- MAIN EXECUTION ---
 if __name__ == "__main__":
     generate_engine()
+

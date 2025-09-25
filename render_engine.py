@@ -54,15 +54,16 @@ def get_github_activity(token, username):
         response.raise_for_status()
         all_events = response.json()
         # Filter for push events in the last 14 days
-        since = datetime.utcnow() - timedelta(days=14)
+        since = datetime.utcnow() - timedelta(days=365)
         for event in all_events:
             if event['type'] == 'PushEvent' and datetime.strptime(event['created_at'], "%Y-%m-%dT%H:%M:%SZ") > since:
-                events.append({
-                    "repo": event['repo']['name'],
-                    "timestamp": datetime.strptime(event['created_at'], "%Y-%m-%dT%H:%M:%SZ"),
-                    "commits": event['payload']['commits'],
-                    "url": f"https://github.com/{event['repo']['name']}/commit/{event['payload']['head']}"
-                })
+                if 'commits' in event['payload'] and event['payload']['commits']:
+                    events.append({
+                        "repo": event['repo']['name'],
+                        "timestamp": datetime.strptime(event['created_at'], "%Y-%m-%dT%H:%M:%SZ"),
+                        "commits": event['payload']['commits'],
+                        "url": f"https://github.com/{event['repo']['name']}/commit/{event['payload']['head']}"
+                    })
     except requests.exceptions.RequestException as e:
         print(f"Error fetching GitHub activity: {e}")
     return events[:20] # Limit to most recent 20 events
@@ -79,7 +80,7 @@ def render_canvas(activity):
         .central-label { font-family: 'Roboto Mono', monospace; font-size: 18px; fill: #FFFFFF; font-weight: bold; text-anchor: middle; }
         .hub-circle { stroke-width: 2; fill: none; }
         .connection-line { stroke: #333333; stroke-width: 1; stroke-dasharray: 4 4; }
-        .activity-node { stroke-width: 1.5; transition: all 0.3s ease; }
+        .activity-node { stroke-width: 1.5; transition: all 0.3s ease; cursor: pointer; }
         .activity-node:hover { r: 10; stroke-width: 3; }
         @keyframes pulse { 0% { r: 6; opacity: 1; } 50% { r: 12; opacity: 0.5; } 100% { r: 6; opacity: 1; } }
         .recent-node { animation: pulse 2s infinite; }
@@ -144,10 +145,40 @@ def render_canvas(activity):
     dwg.save()
     print(f"Neural canvas rendered to {OUTPUT_FILENAME}")
 
+def render_dormant_canvas():
+    """Generates a dormant state SVG when no activity is found."""
+    dwg = svgwrite.Drawing(OUTPUT_FILENAME, size=CANVAS_SIZE, profile='full')
+
+    dwg.defs.add(dwg.style("""
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+        .hub-label { font-family: 'Roboto Mono', monospace; font-size: 14px; fill: #555; font-weight: bold; text-anchor: middle; }
+        .central-label { font-family: 'Roboto Mono', monospace; font-size: 18px; fill: #FFFFFF; font-weight: bold; text-anchor: middle; }
+        .hub-circle { stroke-width: 2; fill: none; opacity: 0.3; }
+        .connection-line { stroke: #333333; stroke-width: 1; stroke-dasharray: 4 4; }
+        .status-text { font-family: 'Roboto Mono', monospace; font-size: 16px; fill: #444; text-anchor: middle; font-style: italic; }
+    """))
+
+    dwg.add(dwg.rect(insert=(0, 0), size=CANVAS_SIZE, fill=BG_COLOR))
+    dwg.add(dwg.circle(center=CENTRAL_NODE_POS, r=40, stroke="#FFFFFF", fill=BG_COLOR, stroke_width=2))
+    dwg.add(dwg.text("ANUBHAB", insert=(CENTRAL_NODE_POS[0], CENTRAL_NODE_POS[1] + 5), class_="central-label"))
+
+    for key, hub in COMPETENCY_HUBS.items():
+        dwg.add(dwg.line(start=CENTRAL_NODE_POS, end=hub["pos"], class_="connection-line"))
+        dwg.add(dwg.circle(center=hub["pos"], r=30, stroke=hub["color"], class_="hub-circle"))
+        dwg.add(dwg.text(hub["label"], insert=(hub["pos"][0], hub["pos"][1] + 45), class_="hub-label"))
+
+    dwg.add(dwg.text("Awaiting new signals...", insert=(CENTRAL_NODE_POS[0], CENTRAL_NODE_POS[1] + 100), class_="status-text"))
+    
+    dwg.save()
+    print(f"Dormant neural canvas rendered to {OUTPUT_FILENAME}")
+
+
 # --- MAIN EXECUTION ---
 if __name__ == "__main__":
     activity_data = get_github_activity(GITHUB_TOKEN, USERNAME)
     if activity_data:
         render_canvas(activity_data)
     else:
-        print("No recent activity found to render.")
+        print("No recent activity found. Rendering dormant canvas.")
+        render_dormant_canvas()
+

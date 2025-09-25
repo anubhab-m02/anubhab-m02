@@ -1,6 +1,6 @@
 import svgwrite
 import random
-
+ 
 # --- CORE BLUEPRINT ---
 OUTPUT_FILENAME = "cognitive_engine.svg"
 CANVAS_SIZE = ("1000px", "800px")

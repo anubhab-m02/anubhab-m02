@@ -49,7 +49,7 @@ Smaller tools, each built to fix one specific annoyance:
 </ul>
 </details>
 
-<h2 align="center">Connect with me:</h3>
+<h2 align="center">Connect with me:</h2>
 <p align="center">
     <a href="https://twitter.com/improllythatguy" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="improllythatguy" height="30" width="40" /></a>
     <a href="https://linkedin.com/in/anubhab-mishra" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="anubhab-mishra" height="30" width="40" /></a>
@@ -57,7 +57,7 @@ Smaller tools, each built to fix one specific annoyance:
     <a href="https://www.leetcode.com/ae3m" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="ae3m" height="30" width="40" /></a>
 </p>
 
-<h2 align="center">What I actually reach for</h3>
+<h2 align="center">What I actually reach for</h2>
 <p align="center">
     <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
     <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a>
@@ -66,9 +66,9 @@ Smaller tools, each built to fix one specific annoyance:
     <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a>
     <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="postgresql" width="40" height="40"/> </a>
     <a href="https://www.postman.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-original.svg" alt="postman" width="40" height="40"/> </a>
-    <a href="https://www.anthropic.com/claude" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/-%20-000000?style=flat-square&logo=anthropic&logoColor=white" alt="claude" height="40"/> </a>
-    <a href="https://ai.google.dev/gemini-api" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/-%20-000000?style=flat-square&logo=googlegemini&logoColor=white" alt="gemini" height="40"/> </a>
-    <a href="https://openai.com/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/-%20-000000?style=flat-square&logo=openai&logoColor=white" alt="openai" height="40"/> </a>
+    <a href="https://www.anthropic.com/claude" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/-%20-000000?style=flat-square&logo=anthropic&logoColor=white" alt="claude" width="40" height="40"/> </a>
+    <a href="https://ai.google.dev/gemini-api" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/-%20-000000?style=flat-square&logo=googlegemini&logoColor=white" alt="gemini" width="40" height="40"/> </a>
+    <a href="https://openai.com/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/-OpenAI-000000?style=flat-square" alt="openai" width="40" height="40"/> </a>
     <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a>
     <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a>
 </p>
@@ -83,7 +83,7 @@ Smaller tools, each built to fix one specific annoyance:
   </picture>
 </p>
 
-<h2 align="center">Frequently Asked, Mostly by Me</h3>
+<h2 align="center">Frequently Asked, Mostly by Me</h2>
 
 <details>
 <summary>Why local-first instead of just using someone else's SaaS?</summary>

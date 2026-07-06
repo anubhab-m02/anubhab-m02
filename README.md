@@ -7,20 +7,48 @@
 <p align="center"><em>Status: 😴 Prolly Sleeping. Currently debugging: my sleep schedule, not the codebase.</em></p>
 
 <div align="left">
-    <p>- 🛠️ Currently: <strong>SDE 1 @ Hashedin by Deloitte</strong>, shipping things that occasionally reach production</p>
-    <p>- 📫 How to reach me: <strong><a href="mailto:anubhab.m248@gmail.com">anubhab.m248@gmail.com</a></strong></p>
-    <p>- 📄 Know about my experiences: <a href="https://drive.google.com/file/d/1D9Uf52_7AWTeqrCEJIYmDqc8VUQXMJvG/view?usp=sharing">View Resume</a></p>
-    <p>- ⚡ Fun fact: <strong>still a real life Ted Mosby T_T</strong></p>
+    <p>- Currently: <strong>SDE 1 @ Hashedin by Deloitte</strong>, shipping things that occasionally reach production</p>
+    <p>- How to reach me: <strong><a href="mailto:anubhab.m248@gmail.com">anubhab.m248@gmail.com</a></strong></p>
+    <p>- Know about my experiences: <a href="https://drive.google.com/file/d/1D9Uf52_7AWTeqrCEJIYmDqc8VUQXMJvG/view?usp=sharing">View Resume</a></p>
+    <p>- Fun fact: <strong>still a real life Ted Mosby T_T</strong></p>
 </div>
 
 <h2 align="center">Stuff I've actually built</h2>
 
-<div align="left">
-    <p>- 🧠 <a href="https://github.com/anubhab-m02/recall"><strong>Recall</strong></a> <img src="https://img.shields.io/github/stars/anubhab-m02/recall?style=flat&logo=github&label=" alt="stars" height="18"> — a local-first "developer memory" that quietly watches your file saves, commands, and git activity, then writes your standup for you. SQLite + LanceDB, its own MCP server, zero cloud. The most ambitious thing here.</p>
-    <p>- 💸 <a href="https://github.com/anubhab-m02/BuFin"><strong>BuFin</strong></a> <img src="https://img.shields.io/github/stars/anubhab-m02/BuFin?style=flat&logo=github&label=" alt="stars" height="18"> — tell it "spent 400 on coffee, again" in plain English and it categorizes, tracks, and judges you accordingly. React 19 + FastAPI + Gemini 2.5 Flash.</p>
-    <p>- 📄 <a href="https://github.com/anubhab-m02/PDF-QnA"><strong>PDF-QnA</strong></a> <img src="https://img.shields.io/github/stars/anubhab-m02/PDF-QnA?style=flat&logo=github&label=" alt="stars" height="18"> — ask your documents questions instead of Ctrl+F-ing into despair. Powered by Gemini Pro.</p>
-    <p>- 🧪 Assorted GenAI experiments: <a href="https://github.com/anubhab-m02/ai-playlist-creator">ai-playlist-creator</a>, <a href="https://github.com/anubhab-m02/TranscriptToSummary-AI">TranscriptToSummary-AI</a>, <a href="https://github.com/anubhab-m02/dev-env-optimizer">dev-env-optimizer</a> — small, sharp tools built to fix one specific annoyance each.</p>
-</div>
+<details>
+<summary><strong>Recall</strong> — a developer memory that remembers so I don't have to</summary>
+<br>
+Local-first dev-activity tracker: watches file saves, terminal commands, and git actions, then writes your standup for you. SQLite + LanceDB for storage and embeddings, a VS Code extension, a browser extension, and its own MCP server so I can just ask it things instead of scrolling through history. Zero cloud, by design — the whole point was to stop leaking my own working notes to someone else's server.
+<br><br>
+<a href="https://github.com/anubhab-m02/recall">github.com/anubhab-m02/recall</a>
+</details>
+
+<details>
+<summary><strong>BuFin</strong> — personal finance, minus the spreadsheet guilt</summary>
+<br>
+Tell it "spent 400 on coffee, again" in plain English and it categorizes, catches duplicates, and tells you your actual safe-to-spend number. React 19 + Tailwind on the front, FastAPI + SQLite on the back, Gemini 2.5 Flash doing the understanding. Has savings jars that fill up like a progress bar, which is doing a lot of emotional heavy lifting.
+<br><br>
+<a href="https://github.com/anubhab-m02/BuFin">github.com/anubhab-m02/BuFin</a>
+</details>
+
+<details>
+<summary><strong>PDF-QnA</strong> — ask your documents questions instead of Ctrl+F-ing into despair</summary>
+<br>
+Upload a document, ask it things in plain English, get an actual answer instead of forty search results for the wrong keyword. Built on Gemini Pro.
+<br><br>
+<a href="https://github.com/anubhab-m02/PDF-QnA">github.com/anubhab-m02/PDF-QnA</a>
+</details>
+
+<details>
+<summary>Assorted GenAI experiments</summary>
+<br>
+Smaller tools, each built to fix one specific annoyance:
+<ul>
+<li><a href="https://github.com/anubhab-m02/ai-playlist-creator">ai-playlist-creator</a> — describe a mood, get a Spotify playlist. React + Firebase + Gemini.</li>
+<li><a href="https://github.com/anubhab-m02/TranscriptToSummary-AI">TranscriptToSummary-AI</a> — turns lecture transcripts into something you'd actually re-read before an exam.</li>
+<li><a href="https://github.com/anubhab-m02/dev-env-optimizer">dev-env-optimizer</a> — pokes at your dev environment and tells you what's slowing it down.</li>
+</ul>
+</details>
 
 <p align="center">
   <picture>
@@ -44,8 +72,8 @@
     <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="separator" width="100%">
 </h3>
 
-<h3 align="center">Languages and Tools:</h3>
-<p align="center"><em>The wall of logos — things I've touched, not a personality.</em></p>
+<details>
+<summary align="center"><strong>Languages and tools</strong> — click to unfurl the wall of logos</summary>
 <p align="center"> 
     <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a>
     <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a>
@@ -81,8 +109,28 @@
     <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a>
     <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/adobe-xd.svg" alt="xd" width="40" height="40"/> </a>
 </p>
+</details>
 
-<h2 align="center">GitHub Highlights</h2>
+<h3 align="center">
+    <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="separator" width="100%">
+</h3>
 
-<p align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=anubhab-m02&show_icons=true&locale=en&layout=compact" alt="anubhab-m02" /> <img src="https://github-readme-stats.vercel.app/api?username=anubhab-m02&show_icons=true&locale=en" alt="anubhab-m02" /> <img src="https://github-readme-streak-stats.herokuapp.com/?user=anubhab-m02&" alt="anubhab-m02" /></p>
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=anubhab-m02&label=Profile%20views&color=0e75b6&style=flat" alt="anubhab-m02" /> <a href="https://twitter.com/improllythatguy" target="blank"><img src="https://img.shields.io/twitter/follow/improllythatguy?logo=twitter&style=for-the-badge" alt="improllythatguy" /></a> </p>
+<h3 align="center">Frequently Asked, Mostly by Me</h3>
+
+<details>
+<summary>Why does your status always say "Prolly Sleeping"?</summary>
+<br>
+Because it's usually accurate. See: Recall's activity logs, which I have chosen not to publish, for my own protection.
+</details>
+
+<details>
+<summary>What does BuFin's safe-to-spend number say right now?</summary>
+<br>
+Lower than I'd like. That's the whole reason the app exists.
+</details>
+
+<details>
+<summary>Is the Ted Mosby thing a bit?</summary>
+<br>
+No.
+</details>

@@ -1,33 +1,51 @@
-(As of September 2024)
 <h1 align="center">Hi 👋, I'm Anubhab Mishra</h1>
 <p align="center">
-  <img src="https://github.com/anubhab-m02/anubhab-m02/blob/main/LinkedIn-cover-1.png" alt="Anubhab Mishra LinkedIn Cover" width="100%">
+  <img src="https://raw.githubusercontent.com/anubhab-m02/anubhab-m02/main/LinkedIn%20cover%20-%201.png" alt="Anubhab Mishra LinkedIn Cover" width="100%">
 </p>
 
-<h3 align="center">A dedicated AI/ML Engineer, UX Designer and Frontend Developer from India.</h3>
+<h3 align="center">SDE 1 by day, GenAI tinkerer by 2am. Somehow both are load-bearing.</h3>
+<p align="center"><em>Status: 😴 Prolly Sleeping. Currently debugging: my sleep schedule, not the codebase.</em></p>
 
 <div align="left">
-    <p>- 🔭 I'm currently working on <strong>Generative AI Projects</strong></p>
-    <p>- 🌱 I'm currently learning <strong>Generative AI</strong></p>
+    <p>- 🛠️ Currently: <strong>SDE 1 @ Hashedin by Deloitte</strong>, shipping things that occasionally reach production</p>
     <p>- 📫 How to reach me: <strong><a href="mailto:anubhab.m248@gmail.com">anubhab.m248@gmail.com</a></strong></p>
-    <p>- 📄 Know about my experiences: <a href="https://drive.google.com/file/d/1hO7BOf8l1wfTfi-2NnqSvuGUwgVg7lFl/view?usp=drive_link">View Resume</a></p>
-    <p>- ⚡ Fun fact: <strong>I'm a real life Ted Mosby T_T</strong></p>
+    <p>- 📄 Know about my experiences: <a href="https://drive.google.com/file/d/1D9Uf52_7AWTeqrCEJIYmDqc8VUQXMJvG/view?usp=sharing">View Resume</a></p>
+    <p>- ⚡ Fun fact: <strong>still a real life Ted Mosby T_T</strong></p>
 </div>
+
+<h2 align="center">Stuff I've actually built</h2>
+
+<div align="left">
+    <p>- 🧠 <a href="https://github.com/anubhab-m02/recall"><strong>Recall</strong></a> <img src="https://img.shields.io/github/stars/anubhab-m02/recall?style=flat&logo=github&label=" alt="stars" height="18"> — a local-first "developer memory" that quietly watches your file saves, commands, and git activity, then writes your standup for you. SQLite + LanceDB, its own MCP server, zero cloud. The most ambitious thing here.</p>
+    <p>- 💸 <a href="https://github.com/anubhab-m02/BuFin"><strong>BuFin</strong></a> <img src="https://img.shields.io/github/stars/anubhab-m02/BuFin?style=flat&logo=github&label=" alt="stars" height="18"> — tell it "spent 400 on coffee, again" in plain English and it categorizes, tracks, and judges you accordingly. React 19 + FastAPI + Gemini 2.5 Flash.</p>
+    <p>- 📄 <a href="https://github.com/anubhab-m02/PDF-QnA"><strong>PDF-QnA</strong></a> <img src="https://img.shields.io/github/stars/anubhab-m02/PDF-QnA?style=flat&logo=github&label=" alt="stars" height="18"> — ask your documents questions instead of Ctrl+F-ing into despair. Powered by Gemini Pro.</p>
+    <p>- 🧪 Assorted GenAI experiments: <a href="https://github.com/anubhab-m02/ai-playlist-creator">ai-playlist-creator</a>, <a href="https://github.com/anubhab-m02/TranscriptToSummary-AI">TranscriptToSummary-AI</a>, <a href="https://github.com/anubhab-m02/dev-env-optimizer">dev-env-optimizer</a> — small, sharp tools built to fix one specific annoyance each.</p>
+</div>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anubhab-m02/anubhab-m02/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anubhab-m02/anubhab-m02/output/github-contribution-grid-snake.svg">
+    <img alt="a snake eating my contribution graph, as a treat" src="https://raw.githubusercontent.com/anubhab-m02/anubhab-m02/output/github-contribution-grid-snake.svg">
+  </picture>
+</p>
 
 <h3 align="center">Connect with me:</h3>
 <p align="center">
     <a href="https://twitter.com/improllythatguy" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="improllythatguy" height="30" width="40" /></a>
     <a href="https://linkedin.com/in/anubhab-mishra" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="anubhab-mishra" height="30" width="40" /></a>
     <a href="https://kaggle.com/ae3m2002" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="ae3m2002" height="30" width="40" /></a>
-    <a href="https://instagram.com/_anubhab_02" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="_anubhab_02" height="30" width="40" /></a>
-    <a href="https://www.behance.net/anubhab-mishra" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/behance.svg" alt="anubhab-mishra" height="30" width="40" /></a>
     <a href="https://medium.com/@ae3m" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@ae3m" height="30" width="40" /></a>
-    <a href="https://www.codechef.com/users/as1829" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="as1829" height="30" width="40" /></a>
     <a href="https://www.hackerrank.com/anubhab02" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="anubhab02" height="30" width="40" /></a>
     <a href="https://www.leetcode.com/ae3m" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="ae3m" height="30" width="40" /></a>
 </p>
 
+<h3 align="center">
+    <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="separator" width="100%">
+</h3>
+
 <h3 align="center">Languages and Tools:</h3>
+<p align="center"><em>The wall of logos — things I've touched, not a personality.</em></p>
 <p align="center"> 
     <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a>
     <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a>
@@ -64,17 +82,7 @@
     <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/adobe-xd.svg" alt="xd" width="40" height="40"/> </a>
 </p>
 
-<h3 align="center">
-    <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="separator" width="100%">
-</h3>
-
 <h2 align="center">GitHub Highlights</h2>
 
-<h3 align="center">
-    <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="separator" width="100%">
-</h3>
-
-
 <p align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=anubhab-m02&show_icons=true&locale=en&layout=compact" alt="anubhab-m02" /> <img src="https://github-readme-stats.vercel.app/api?username=anubhab-m02&show_icons=true&locale=en" alt="anubhab-m02" /> <img src="https://github-readme-streak-stats.herokuapp.com/?user=anubhab-m02&" alt="anubhab-m02" /></p>
-<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=anubhab-m02" alt="anubhab-m02" /></a> </p>
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=anubhab-m02&label=Profile%20views&color=0e75b6&style=flat" alt="anubhab-m02" /> <a href="https://twitter.com/improllythatguy" target="blank"><img src="https://img.shields.io/twitter/follow/improllythatguy?logo=twitter&style=for-the-badge" alt="improllythatguy" /></a> </p>
